@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/oneStopShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ONE STOP SHOP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:textSize="45dp"
+        android:textStyle="italic"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your Category"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/Stationary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stationary shop"
+        android:layout_below="@+id/choose"
+        android:layout_marginTop="32dp"
+        android:onClick="Stationary"/>
+    <Button
+        android:id="@+id/cafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cafe's"
+        android:layout_below="@+id/Stationary"
+        android:layout_marginTop="16dp"
+        android:onClick="cafe"/>
+    <Button
+        android:id="@+id/canteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="canteen"
+        android:layout_below="@+id/cafe"
+        android:layout_marginTop="16dp"
+        android:onClick="canteen">
+
+    </Button>
+    <Button
+        android:id="@+id/stalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stalls"
+        android:layout_below="@+id/canteen"
+        android:layout_marginTop="16dp"
+        android:onClick="stalls"/>
+</RelativeLayout>
+</ScrollView>

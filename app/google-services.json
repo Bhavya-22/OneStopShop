@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "750125053943",
+    "firebase_url": "https://onestopshop-25717.firebaseio.com",
+    "project_id": "onestopshop-25717",
+    "storage_bucket": "onestopshop-25717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750125053943:android:f64acff3c4a6e560f8a0f2",
+        "android_client_info": {
+          "package_name": "com.example.onestopshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750125053943-05pmdrbmv4ohs15e7q4729h4a0dh93vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onestopshop",
+            "certificate_hash": "d0921b7d2e5a19b57c83a2d3503263ee68d149d3"
+          }
+        },
+        {
+          "client_id": "750125053943-0mqv0f251a5m7ksgb7tihl5pnmsilt9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqxmnY0-P15VBKASdzgdMWlBVajIFaAW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750125053943-0mqv0f251a5m7ksgb7tihl5pnmsilt9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
