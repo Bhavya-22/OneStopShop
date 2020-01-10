@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:weightSum="2"
             android:baselineAligned="false"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="16dp"
             android:background="@color/cardview_light_background">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -27,7 +27,8 @@
                     android:textStyle="bold"
                     android:id="@+id/name"
                     android:text="main canteen"
-                    android:layout_marginLeft="4dp">
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#ff9800">
 
                 </TextView>
 
@@ -39,7 +40,8 @@
                     android:id="@+id/desc"
                     android:layout_marginTop="12sp"
                     android:text="oldest shop in ISM which is behind the central library"
-                    android:layout_marginLeft="4dp">
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#47a64a">
 
                 </TextView>
 
@@ -82,7 +84,8 @@
                     android:textStyle="bold"
                     android:id="@+id/name1"
                     android:text="Amber canteen"
-                    android:layout_marginLeft="4dp">
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#ff9800">
 
                 </TextView>
 
@@ -94,7 +97,8 @@
                     android:id="@+id/desc1"
                     android:layout_marginTop="12sp"
                     android:text="present at the ground floor inside amber hostel gate outside hostel"
-                    android:layout_marginLeft="4dp">
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#47a64a">
 
                 </TextView>
 
@@ -136,7 +140,8 @@
                     android:textStyle="bold"
                     android:id="@+id/name2"
                     android:text="Heritage canteen"
-                    android:layout_marginLeft="4dp">
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#ff9800">
 
                 </TextView>
 
@@ -148,7 +153,8 @@
                     android:id="@+id/desc2"
                     android:layout_marginTop="12sp"
                     android:text="present behind the ramdhani store"
-                    android:layout_marginLeft="4dp">
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#47a64a">
 
                 </TextView>
 
@@ -175,7 +181,7 @@
             android:layout_height="wrap_content"
             android:weightSum="2"
             android:baselineAligned="false"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="16dp"
             android:background="@color/cardview_light_background">
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -189,20 +195,22 @@
                     android:textAllCaps="true"
                     android:textStyle="bold"
                     android:id="@+id/name3"
-                    android:text="Jasper canteen"
-                    android:layout_marginLeft="4dp">
+                    android:text="Ashirwad canteen"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#ff9800">
 
                 </TextView>
 
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
                     android:id="@+id/desc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp"
+                    android:layout_marginLeft="4dp"
                     android:layout_marginTop="12sp"
                     android:text="present at the second floor of jasper hostel"
-                    android:layout_marginLeft="4dp">
+                    android:textColor="#47a64a"
+                    android:textSize="20sp">
 
                 </TextView>
 
@@ -216,9 +224,10 @@
 
                 <ImageView
                     android:id="@+id/profilePic3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/nopreview">
+                    android:layout_width="wrap_content"
+                    android:layout_height="208sp"
+                    android:src="@drawable/ashirwad"
+                    android:scaleType="fitXY">
 
                 </ImageView>
 
@@ -231,6 +240,63 @@
             android:baselineAligned="false"
             android:layout_marginBottom="12dp"
             android:background="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="287dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="emerald canteen"
+                    android:textAllCaps="true"
+                    android:textColor="#ff9800"
+                    android:textSize="28dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/desc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12sp"
+                    android:text="present at the ground floor inside emerald hostel"
+                    android:textColor="#47a64a"
+                    android:textSize="20sp">
+
+                </TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/profilePic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="343dp"
+                    android:src="@drawable/nopreview">
+
+                </ImageView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:baselineAligned="false"
+            android:layout_marginBottom="16dp"
+            android:background="@color/cardview_light_background">
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -242,9 +308,10 @@
                     android:textSize="28dp"
                     android:textAllCaps="true"
                     android:textStyle="bold"
-                    android:id="@+id/name4"
-                    android:text="emerald canteen"
-                    android:layout_marginLeft="4dp">
+                    android:id="@+id/name5"
+                    android:text="Library canteen"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#ff9800">
 
                 </TextView>
 
@@ -253,10 +320,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:id="@+id/desc4"
+                    android:id="@+id/desc5"
                     android:layout_marginTop="12sp"
-                    android:text="present at the ground floor inside emerald hostel"
-                    android:layout_marginLeft="4dp">
+                    android:text="present below the main library at ground floor"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#47a64a">
 
                 </TextView>
 
@@ -269,7 +337,7 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/profilePic3"
+                    android:id="@+id/profilePic5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/nopreview">

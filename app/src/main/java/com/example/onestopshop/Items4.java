@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class Items4 {
-    private String name;
+    public String name;
     private String price;
     private String profilePic;
 

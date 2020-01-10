@@ -36,12 +36,26 @@ public class Stalls extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openStallslist();
+
     }
+        });
+        LinearLayout linearLayout1 = (LinearLayout) findViewById(R.id.parantha);
+        linearLayout1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openparantha();
+
+            }
         });
 
     }
     public void openStallslist(){
-        Intent intent =new Intent(Stalls.this, Stallslist.class);
+        Intent intent1=new Intent(Stalls.this,Stallslist.class);
+        startActivity(intent1);
+        finish();
+    }
+    public void openparantha(){
+        Intent intent =new Intent(Stalls.this, Parathamenu.class);
         startActivity(intent);
         finish();
     }

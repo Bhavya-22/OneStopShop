@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.onestopshop">
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
 
-    </uses-permission>
-    <uses-permission android:name="android.permission.INTERNET">
-
-    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,13 +12,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Stallslist"
-            android:parentActivityName=".Stalls">
-
-        </activity>
-        <activity android:name=".Items4"
-            android:parentActivityName=".Stalls">
-        </activity>
+        <activity android:name=".pavbhaji"
+            android:parentActivityName=".Stallslist"></activity>
+        <activity
+            android:name=".parantha3"
+            android:parentActivityName=".Parathamenu"></activity>
+        <activity
+            android:name=".parantha2"
+            android:parentActivityName=".Parathamenu" />
+        <activity
+            android:name=".Parantha1"
+            android:parentActivityName=".Parathamenu" />
+        <activity
+            android:name=".Parathamenu"
+            android:parentActivityName=".Stalls" />
+        <activity
+            android:name=".Stallslist"
+            android:parentActivityName=".Stalls" />
+        <activity
+            android:name=".Items4"
+            android:parentActivityName=".Stalls" />
         <activity
             android:name=".Stalls"
             android:parentActivityName=".MainActivity" />

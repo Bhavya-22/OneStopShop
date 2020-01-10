@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#313f8c">
 <RelativeLayout
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -23,7 +24,8 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="240dp"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textColor="#80c6ff"/>
     <Button
         android:id="@+id/Stationary"
         android:layout_width="match_parent"
@@ -31,7 +33,9 @@
         android:text="Stationary shop"
         android:layout_below="@+id/choose"
         android:layout_marginTop="32dp"
-        android:onClick="Stationary"/>
+        android:onClick="Stationary"
+        android:background="#7ed160"
+        android:textColor="#9c27b0"/>
     <Button
         android:id="@+id/cafe"
         android:layout_width="match_parent"
@@ -39,7 +43,9 @@
         android:text="Cafe's"
         android:layout_below="@+id/Stationary"
         android:layout_marginTop="16dp"
-        android:onClick="cafe"/>
+        android:onClick="cafe"
+        android:background="#7ed160"
+        android:textColor="#9c27b0"/>
     <Button
         android:id="@+id/canteen"
         android:layout_width="match_parent"
@@ -47,7 +53,9 @@
         android:text="canteen"
         android:layout_below="@+id/cafe"
         android:layout_marginTop="16dp"
-        android:onClick="canteen">
+        android:onClick="canteen"
+        android:background="#7ed160"
+        android:textColor="#9c27b0">
 
     </Button>
     <Button
@@ -57,6 +65,8 @@
         android:text="stalls"
         android:layout_below="@+id/canteen"
         android:layout_marginTop="16dp"
-        android:onClick="stalls"/>
+        android:onClick="stalls"
+        android:background="#7ed160"
+        android:textColor="#9c27b0"/>
 </RelativeLayout>
 </ScrollView>
